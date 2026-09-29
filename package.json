@@ -1,0 +1,12 @@
+{
+  "name": "pipo-clean",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "otimizar": "node scripts/otimizar.mjs",
+    "dev": "npx --yes serve . -l 4350"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
